@@ -1,5 +1,9 @@
 // Variaveis usadas no meu Sass
-$cor-padrao: #c24e4b;
-$cor-auxiliar: #1e2c35;
+$cor-padrao: darken(#c24e4b, 20%);
+$cor-auxiliar:lighten(#1e2c35, 50%);
 $cor-branca: #fff;
 $raio: 03em;
+
+$ponto-de-quebra: 980px;
+
+$mq-mobile: "(max-width: 980px)";
