@@ -1,12 +1,19 @@
-Instalando
+﻿Instalando
 Com o Ruby instalado, dê o comando abaixo e aguarde o término da instalação.
 
 gem install sass
 npm i -g sass
 gem install compass
 
+gem update --system
+gem install compass
+gem install compass --pre
+compass create
+
+
 compilamos o arquivo .scss para criar um .css
 sass estilos.scss:estilos.css
 
 sass --watch estilos.scss:estilos.css
+compass watch css/estilos.scss
 escutador automatico
